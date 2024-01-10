@@ -1,8 +1,8 @@
 ## baysis3-XC7A35TICPG236<br>
-# This file is a general .xdc for the Basys3 rev B board <br>
-# To use it in a project: <br>
-# - uncomment the lines corresponding to used pins <br>
-# - rename the used ports (in each line, after get_ports) according to the top level signal names in the project <br>
+ This file is a general .xdc for the Basys3 rev B board <br>
+ To use it in a project: <br>
+  - uncomment the lines corresponding to used pins <br>
+   -rename the used ports (in each line, after get_ports) according to the top level signal names in the project <br>
  
 # Clock signal <br>
 #set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk] <br>
